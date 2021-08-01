@@ -1,0 +1,36 @@
+.image-holer img{
+    object-fit: cover;
+}
+.wrapper{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px dashed #c2cdda;
+    margin-top: 32px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.wrapper .image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.wrapper .icon{
+    font-size: 100px;
+    color: #9658fe;
+}
